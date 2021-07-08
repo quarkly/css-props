@@ -1,30 +1,34 @@
-## max-height
+# max-height
+
 The max-height CSS property sets the maximum height of an element. It prevents the used value of the height property from becoming larger than the value specified for max-height.
+
 
 ## Values
 
-<length>
-Defines the max-height as an absolute value.
+<dl>
+<dt><length></dt>
+<dd>Defines the max-height as an absolute value.</dd>
 
-<percentage>
-Defines the max-height as a percentage of the containing block's height.
+<dt><percentage></dt>
+<dd>Defines the max-height as a percentage of the containing block's height.</dd>
 
-none
-No limit on the size of the box.
+<dt>none</dt>
+<dd>No limit on the size of the box.</dd>
 
-max-content
-The intrinsic preferred max-height.
+<dt>max-content</dt>
+<dd>The intrinsic preferred max-height.</dd>
 
-min-content
-The intrinsic minimum max-height.
+<dt>min-content</dt>
+<dd>The intrinsic minimum max-height.</dd>
 
-fit-content(<length-percentage>)
-Uses the fit-content formula with the available space replaced by the specified argument, i.e. min(max-content, max(min-content, argument)).
+<dt>fit-content(<length-percentage>)</dt>
+<dd>Uses the fit-content formula with the available space replaced by the specified argument, i.e. min(max-content, max(min-content, argument)).</dd>
+</dl>
 
 ## Examples
 
-max-height: 75%;
-
-max-height: none;
-
-max-height: 100vh;
+```
+max-height="75%"
+max-height="none"
+max-height="100vh"
+```

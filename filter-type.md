@@ -1,25 +1,25 @@
-## filter-type
+# filter-type
 
 Special function that achieve predefined effects.
 
 ## Values
 
-blur
+<dt>blur</dt>
 
-brightness
+<dt>brightness</dt>
 
-contrast
+<dt>contrast</dt>
 
-drop-shadow
+<dt>drop-shadow</dt>
 
-grayscale
+<dt>grayscale</dt>
 
-hue-rotate
+<dt>hue-rotate</dt>
 
-invert
+<dt>invert</dt>
 
-opacity
+<dt>opacity</dt>
 
-saturate
+<dt>saturate</dt>
 
-sepia
+<dt>sepia</dt>

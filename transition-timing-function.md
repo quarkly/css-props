@@ -1,62 +1,66 @@
-## transition-timing-function
+# transition-timing-function
 
 The transition-timing-function CSS property sets how intermediate values are calculated for CSS properties being affected by a transition effect.
 
 
 ## Values
 
-<easing-function>
-Each <easing-function> represents the easing function to link to the corresponding property to transition, as defined in transition-property.
-The non-step keyword values (ease, linear, ease-in-out, etc.) each represent cubic Bézier curve with fixed four point values, with the cubic-bezier() function value allowing for a non-predefined value. The step timing functions divides the input time into a specified number of intervals that are equal in length. It is defined by a number of steps and a step position.
+<dl>
+<dt><easing-function></dt>
+<dd>Each <easing-function> represents the easing function to link to the corresponding property to transition, as defined in transition-property.
+The non-step keyword values (ease, linear, ease-in-out, etc.) each represent cubic Bézier curve with fixed four point values, with the cubic-bezier() function value allowing for a non-predefined value. The step timing functions divides the input time into a specified number of intervals that are equal in length. It is defined by a number of steps and a step position.</dd>
 
-ease
-Equal to cubic-bezier(0.25, 0.1, 0.25, 1.0), the default value, increases in velocity towards the middle of the transition, slowing back down at the end.
+<dt>ease</dt>
+<dd>Equal to cubic-bezier(0.25, 0.1, 0.25, 1.0), the default value, increases in velocity towards the middle of the transition, slowing back down at the end.</dd>
 
-linear
-Equal to cubic-bezier(0.0, 0.0, 1.0, 1.0), transitions at an even speed.
+<dt>linear</dt>
+<dd>Equal to cubic-bezier(0.0, 0.0, 1.0, 1.0), transitions at an even speed.</dd>
 
-ease-in
-Equal to cubic-bezier(0.42, 0, 1.0, 1.0), starts off slowly, with the transition speed increasing until complete.
+<dt>ease-in</dt>
+<dd>Equal to cubic-bezier(0.42, 0, 1.0, 1.0), starts off slowly, with the transition speed increasing until complete.</dd>
 
-ease-out
-Equal to cubic-bezier(0, 0, 0.58, 1.0), starts transitioning quickly, slowing down the transition continues. •
+<dt>ease-out</dt>
+<dd>Equal to cubic-bezier(0, 0, 0.58, 1.0), starts transitioning quickly, slowing down the transition continues. •</dd>
 
-ease-in-out
-Equal to cubic-bezier(0.42, 0, 0.58, 1.0), starts transitioning slowly, speeds up, and then slows down again.
+<dt>ease-in-out</dt>
+<dd>Equal to cubic-bezier(0.42, 0, 0.58, 1.0), starts transitioning slowly, speeds up, and then slows down again.</dd>
 
-cubic-bezier(p1, p2, p3, p4)
-An author defined cubic-Bezier curve, where the p1 and p3 values must be in the range of 0 to 1.
+<dt>cubic-bezier(p1, p2, p3, p4)</dt>
+<dd>An author defined cubic-Bezier curve, where the p1 and p3 values must be in the range of 0 to 1.</dd>
 
-steps( n, <jumpterm>)
-Displays the transition along n stops along the transition, displaying each stop for equal lengths of time. For example, if n is 5,  there are 5 steps. Whether the transition holds temporarily at 0%, 20%, 40%, 60% and 80%, on the 20%, 40%, 60%, 80% and 100%, or makes 5 stops between the 0% and 100% along the transition, or makes 5 stops including the 0% and 100% marks (on the 0%, 25%, 50%, 75%, and 100%) depends on which of the following jump terms is used:
+<dt>steps( n, <jumpterm>)</dt>
+<dd>Displays the transition along n stops along the transition, displaying each stop for equal lengths of time. For example, if n is 5,  there are 5 steps. Whether the transition holds temporarily at 0%, 20%, 40%, 60% and 80%, on the 20%, 40%, 60%, 80% and 100%, or makes 5 stops between the 0% and 100% along the transition, or makes 5 stops including the 0% and 100% marks (on the 0%, 25%, 50%, 75%, and 100%) depends on which of the following jump terms is used:</dd>
 
-jump-start
-Denotes a left-continuous function, so that the first jump happens when the transition begins;
+<dt>jump-start</dt>
+<dd>Denotes a left-continuous function, so that the first jump happens when the transition begins;</dd>
 
-jump-end
-Denotes a right-continuous function, so that the last jump happens when the animation ends;
+<dt>jump-end</dt>
+<dd>Denotes a right-continuous function, so that the last jump happens when the animation ends;</dd>
 
-jump-none
-There is no jump on either end. Instead, holding at both the 0% mark and the 100% mark, each for 1/n of the duration
+<dt>jump-none</dt>
+<dd>There is no jump on either end. Instead, holding at both the 0% mark and the 100% mark, each for 1/n of the duration</dd>
 
-jump-both
-Includes pauses at both the 0% and 100% marks, effectively adding a step during the transition time.
+<dt>jump-both</dt>
+<dd>Includes pauses at both the 0% and 100% marks, effectively adding a step during the transition time.</dd>
 
-start
-Same as jump-start.
+<dt>start</dt>
+<dd>Same as jump-start.</dd>
 
-end
-Same as jump-end.
+<dt>end</dt>
+<dd>Same as jump-end.</dd>
 
-step-start
-Equal to steps(1, jump-start)
+<dt>step-start</dt>
+<dd>Equal to steps(1, jump-start)</dd>
 
-step-end
-Equal to steps(1, jump-end)
+<dt>step-end</dt>
+<dd>Equal to steps(1, jump-end)</dd>
+</dl>
 
 ## Examples
 
-transition-timing-function: ease-in;
-transition-timing-function: ease-out;
-transition-timing-function: ease-in-out;
-transition-timing-function: linear;
+```
+transition-timing-function="ease-in"
+transition-timing-function="ease-out"
+transition-timing-function="ease-in-out"
+transition-timing-function="linear"
+```

@@ -1,25 +1,29 @@
-## background-clip
+# background-clip
 
 The background-clip CSS property sets whether an element's background extends underneath its border box, padding box, or content box.
 
 
 ## Values
 
-border-box
-The background extends to the outside edge of the border (but underneath the border in z-ordering).
+<dl>
+<dt>border-box</dt>
+<dd>The background extends to the outside edge of the border (but underneath the border in z-ordering).</dd>
 
-padding-box
-The background extends to the outside edge of the padding. No background is drawn beneath the border.
+<dt>padding-box</dt>
+<dd>The background extends to the outside edge of the padding. No background is drawn beneath the border.</dd>
 
-content-box
-The background is painted within (clipped to) the content box.
+<dt>content-box</dt>
+<dd>The background is painted within (clipped to) the content box.</dd>
 
-text 
-The background is painted within (clipped to) the foreground text.
+<dt>text </dt>
+<dd>The background is painted within (clipped to) the foreground text.</dd>
+</dl>
 
 ## Examples
 
-background-clip: border-box;
-background-clip: padding-box;
-background-clip: content-box;
-background-clip: text;
+```
+background-clip="border-box"
+background-clip="padding-box"
+background-clip="content-box"
+background-clip="text"
+```

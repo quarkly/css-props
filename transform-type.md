@@ -1,4 +1,4 @@
-## transform-function
+# transform-function
 
 One or more of the CSS transform functions to be applied.
 The transform functions are multiplied in order from left to right,

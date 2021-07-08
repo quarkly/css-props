@@ -1,4 +1,4 @@
-## justify-self
+# justify-self
 
 The CSS justify-self property sets the way a box is justified inside
 its alignment container along the appropriate axis.
@@ -39,34 +39,9 @@ The effect of this property is dependent of the layout mode we are in:
 ## Examples
 
 ```
-* Basic keywords */
-justify-self: auto;
-justify-self: normal;
-justify-self: stretch;
+justify-self="center"     /* Pack item around the center */
+justify-self="start"      /* Pack item from the start */
+justify-self="end"        /* Pack item from the end */
+justify-self="flex-start" /* Equivalent to 'start'. Note that justify-self is ignored in Flexbox layouts. */
 
-/* Positional alignment */
-justify-self: center;     /* Pack item around the center */
-justify-self: start;      /* Pack item from the start */
-justify-self: end;        /* Pack item from the end */
-justify-self: flex-start; /* Equivalent to 'start'. Note that justify-self is ignored in Flexbox layouts. */
-justify-self: flex-end;   /* Equivalent to 'end'. Note that justify-self is ignored in Flexbox layouts. */
-justify-self: self-start;
-justify-self: self-end;
-justify-self: left;       /* Pack item from the left */
-justify-self: right;      /* Pack item from the right */
-
-/* Baseline alignment */
-justify-self: baseline;
-justify-self: first baseline;
-justify-self: last baseline;
-
-/* Overflow alignment (for positional alignment only) */
-justify-self: safe center;
-justify-self: unsafe center;
-
-/* Global values */
-justify-self: inherit;
-justify-self: initial;
-justify-self: revert;
-justify-self: unset;
 ```

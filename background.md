@@ -1,33 +1,37 @@
-## background
+# background
 
 The background shorthand CSS property sets all background style properties at once, such as color, image, origin and size, or repeat method.
 
+
 ## Values
 
-<attachment>
-See background-attachment
+<dl>
+<dt><attachment></dt>
+<dd>See background-attachment</dd>
 
-<box>
-See background-clip and background-origin
+<dt><box></dt>
+<dd>See background-clip and background-origin</dd>
 
-<background-color>
-See background-color
+<dt><background-color></dt>
+<dd>See background-color</dd>
 
-<bg-image>
-See background-image
+<dt><bg-image></dt>
+<dd>See background-image</dd>
 
-<position>
-See background-position
+<dt><position></dt>
+<dd>See background-position</dd>
 
-<repeat-style>
-See background-repeat
+<dt><repeat-style></dt>
+<dd>See background-repeat</dd>
 
-<bg-size>
-See background-size.
-
+<dt><bg-size></dt>
+<dd>See background-size.</dd>
+</dl>
 
 ## Examples
 
-background: url("starsolid.gif") #99f repeat-y fixed;
-background: #000;
-background: url("starsolid.gif") repeat-x cover;
+```
+background="url("starsolid.gif") #99f repeat-y fixed"
+background=#000"
+background="url("starsolid.gif") repeat-x cover"
+```

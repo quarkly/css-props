@@ -1,22 +1,26 @@
-## transition-property
+# transition-property
 
 The transition-property CSS property sets the CSS properties to which a transition effect should be applied.
 
 
 ## Values
 
-none
-No properties will transition.
+<dl>
+<dt>none</dt>
+<dd>No properties will transition.</dd>
 
-all
-All properties that can transition will.
+<dt>all</dt>
+<dd>All properties that can transition will.</dd>
 
-<custom-ident>
-A string identifying the property to which a transition effect should be applied when its value changes.
+<dt><custom-ident></dt>
+<dd>A string identifying the property to which a transition effect should be applied when its value changes.</dd>
+</dl>
 
 ## Examples
 
-transition-property: none;
-transition-property: all;
-transition-property: all, height, color;
-transition-property: -specific;
+```
+transition-property="none"
+transition-property="all"
+transition-property="all, height, color"
+transition-property="-specific"
+```

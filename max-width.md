@@ -1,28 +1,34 @@
-## max-width
+# max-width
+
 The max-width CSS property sets the maximum width of an element. It prevents the used value of the width property from becoming larger than the value specified by max-width.
+
 
 ## Values
 
-<length>
-Defines the max-width as an absolute value.
+<dl>
+<dt><length></dt>
+<dd>Defines the max-width as an absolute value.</dd>
 
-<percentage>
-Defines the max-width as a percentage of the containing block's width.
+<dt><percentage></dt>
+<dd>Defines the max-width as a percentage of the containing block's width.</dd>
 
-none
-No limit on the size of the box.
+<dt>none</dt>
+<dd>No limit on the size of the box.</dd>
 
-max-content
-The intrinsic preferred max-width.
+<dt>max-content</dt>
+<dd>The intrinsic preferred max-width.</dd>
 
-min-content
-The intrinsic minimum max-width.
+<dt>min-content</dt>
+<dd>The intrinsic minimum max-width.</dd>
 
-fit-content(<length-percentage>)
-Uses the fit-content formula with the available space replaced by the specified argument, i.e. min(max-content, max(min-content, argument)).
+<dt>fit-content(<length-percentage>)</dt>
+<dd>Uses the fit-content formula with the available space replaced by the specified argument, i.e. min(max-content, max(min-content, argument)).</dd>
+</dl>
 
 ## Examples
 
-max-width: 150px;
-
-max-width: 50%;
+```
+max-width="150px"
+max-width="50%"
+max-width="100vh"
+```

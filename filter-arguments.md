@@ -1,8 +1,10 @@
-## filter-arguments
+# filter-arguments
 
 Predefined effect function argument
 
 ## Examples
 
-filter: blur(5px)
-filter: brightness(2)
+```
+filter="blur(5px)"
+filter="brightness(2)"
+```

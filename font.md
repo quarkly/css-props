@@ -1,53 +1,57 @@
-## font
+# font
 
 The font CSS shorthand property sets all the different properties of an element's font. Alternatively, it sets an element's font to a system font.
 
 
 ## Values
 
-<'font-style'>
-See the font-style CSS property.
+<dl>
+<dt><'font-style'></dt>
+<dd>See the font-style CSS property.</dd>
 
-<'font-variant'>
-See the font-variant CSS property.
+<dt><'font-variant'></dt>
+<dd>See the font-variant CSS property.</dd>
 
-<'font-weight'>
-See the font-weight CSS property.
+<dt><'font-weight'></dt>
+<dd>See the font-weight CSS property.</dd>
 
-<'font-stretch'>
-See the font-stretch CSS property.
+<dt><'font-stretch'></dt>
+<dd>See the font-stretch CSS property.</dd>
 
-<'font-size'>
-See the font-size CSS property.
+<dt><'font-size'></dt>
+<dd>See the font-size CSS property.</dd>
 
-<'line-height'>
-See the line-height CSS property.
+<dt><'line-height'></dt>
+<dd>See the line-height CSS property.</dd>
 
-<'font-family'>
-See the font-family CSS property.
-System font values
+<dt><'font-family'></dt>
+<dd>See the font-family CSS property.
+System font values</dd>
 
-caption
-The system font used for captioned controls (e.g., buttons, drop-downs, etc.).
+<dt>caption</dt>
+<dd>The system font used for captioned controls (e.g., buttons, drop-downs, etc.).</dd>
 
-icon
-The system font used to label icons.
+<dt>icon</dt>
+<dd>he system font used to label icons.</dd>
 
-menu
-The system font used in menus (e.g., dropdown menus and menu lists).
+<dt>menu</dt>
+<dd>The system font used in menus (e.g., dropdown menus and menu lists).</dd>
 
-message-box
-The system font used in dialog boxes.
+<dt>message-box</dt>
+<dd>The system font used in dialog boxes.</dd>
 
-small-caption
-The system font used for labeling small controls.
+<dt>small-caption</dt>
+<dd>The system font used for labeling small controls.</dd>
 
-status-bar
-The system font used in window status bars.
+<dt>status-bar</dt>
+<dd>The system font used in window status bars.</dd>
+</dl>
 
 ## Examples
 
-font: 12px/14px sans-serif
-font: 80% sans-serif
-font: bold italic large serif
-font: status-bar
+```
+font="12px/14px sans-serif"
+font="80% sans-serif"
+font="bold italic large serif"
+font="status-bar"
+```
