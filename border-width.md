@@ -2,15 +2,16 @@
 
 The border-width shorthand CSS property sets the width of an element's border.
 
-
 ## Values
 
 <dl>
-<dt><line-width></dt>
-<dd>Defines the width of the border, either as an explicit nonnegative <length> or a keyword. If it's a keyword, it must be one of the following values:
-thin
-medium
-thick</dd>
+<dt>&lt;line-width&gt;</dt>
+<dd>Defines the width of the border, either as an explicit nonnegative &lt;length&gt; or a keyword. If it's a keyword, it must be one of the following values:
+
+-   thin
+-   medium
+-   thick
+</dd>
 </dl>
 
 ## Examples

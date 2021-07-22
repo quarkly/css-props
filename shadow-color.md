@@ -2,12 +2,11 @@
 
 Specifies the color of the shadow
 
-
 ## Values
 
 <dl>
-<dt>See <color> values for possible keywords and notations.</dt>
-<dd>If not specified, it defaults to <color_value#currentcolor_keyword>.</dd>
+<dt>See &lt;color&gt; values for possible keywords and notations.</dt>
+<dd>If not specified, it defaults to &lt;color_value#currentcolor_keyword&gt;.</dd>
 </dl>
 
 ## Examples
