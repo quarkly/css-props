@@ -2,13 +2,11 @@
 
 The transform CSS property lets you rotate, scale, skew, or translate an element. It modifies the coordinate space of the CSS visual formatting model.
 
-
 ## Values
 
 <dl>
-<dt><transform-function></dt>
+<dt>&lt;transform-function&gt;</dt>
 <dd>One or more of the CSS transform functions to be applied. The transform functions are multiplied in order from left to right, meaning that composite transforms are effectively applied in order from right to left.</dd>
-
 <dt>none</dt>
 <dd>Specifies that no transform should be applied.</dd>
 </dl>

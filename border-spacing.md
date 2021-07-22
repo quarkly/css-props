@@ -1,12 +1,11 @@
 # border-spacing
 
-The border-spacing CSS property sets the distance between the borders of adjacent <table> cells. This property applies only when border-collapse is separate.
-
+The border-spacing CSS property sets the distance between the borders of adjacent &lt;table&gt; cells. This property applies only when border-collapse is separate.
 
 ## Values
 
 <dl>
-<dt><length></dt>
+<dt>&lt;length&gt;</dt>
 <dd>The size of the spacing as a fixed value.</dd>
 </dl>
 

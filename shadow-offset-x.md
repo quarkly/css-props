@@ -1,7 +1,6 @@
 # shadow-offset-x
 
-These is value to set the shadow horizontal offset. 
-
+These is value to set the shadow horizontal offset.
 
 ## Values
 

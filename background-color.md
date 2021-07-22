@@ -2,11 +2,10 @@
 
 The background-color CSS property sets the background color of an element.
 
-
 ## Values
 
 <dl>
-<dt><color></dt>
+<dt>&lt;color&gt;</dt>
 <dd>The uniform color of the background. It is rendered behind any background-image that is specified, although the color will still be visible through any transparency in the image.</dd>
 </dl>
 

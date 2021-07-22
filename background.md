@@ -2,29 +2,22 @@
 
 The background shorthand CSS property sets all background style properties at once, such as color, image, origin and size, or repeat method.
 
-
 ## Values
 
 <dl>
-<dt><attachment></dt>
+<dt>&lt;attachment&gt;</dt>
 <dd>See background-attachment</dd>
-
-<dt><box></dt>
+<dt>&lt;box&gt;</dt>
 <dd>See background-clip and background-origin</dd>
-
-<dt><background-color></dt>
+<dt>&lt;background-color&gt;</dt>
 <dd>See background-color</dd>
-
-<dt><bg-image></dt>
+<dt>&lt;bg-image&gt;</dt>
 <dd>See background-image</dd>
-
-<dt><position></dt>
+<dt>&lt;position&gt;</dt>
 <dd>See background-position</dd>
-
-<dt><repeat-style></dt>
+<dt>&lt;repeat-style&gt;</dt>
 <dd>See background-repeat</dd>
-
-<dt><bg-size></dt>
+<dt>&lt;bg-size&gt;</dt>
 <dd>See background-size.</dd>
 </dl>
 

@@ -2,14 +2,12 @@
 
 The gap CSS property sets the gaps (gutters) between rows and columns. It is a shorthand for row-gap and column-gap.
 
-
 ## Values
 
 <dl>
-<dt><length></dt>
+<dt>&lt;length&gt;</dt>
 <dd>Is the width of the gutter separating the grid lines.</dd>
-
-<dt><percentage></dt>
+<dt>&lt;percentage&gt;</dt>
 <dd>Is the width of the gutter separating the grid lines, relative to the dimension of the element.</dd>
 </dl>
 

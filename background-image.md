@@ -2,15 +2,13 @@
 
 The background-image CSS property sets one or more background images on an element.
 
-
 ## Values
 
 <dl>
 <dt>none</dt>
 <dd>Is a keyword denoting the absence of images.</dd>
-
-<dt><image></dt>
-<dd>Is an <image> denoting the image to display. There can be several of them, separated by commas, as multiple backgrounds are supported.</dd>
+<dt>&lt;image&gt;</dt>
+<dd>Is an &lt;image&gt; denoting the image to display. There can be several of them, separated by commas, as multiple backgrounds are supported.</dd>
 </dl>
 
 ## Examples
